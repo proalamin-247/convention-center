@@ -1,9 +1,27 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&family=Neonderthaw&family=Poppins&family=Roboto&family=Yeseva+One&display=swap');
+
+
+.priceing-section{
+    /* margin-top: 150px !important; */
+}
+
+
+/* Package section  */
+.package-button{
+    background: #fff2fa;
+    /* height: 47px;
+    width: 187pxpx; */
+    border-radius: 20px;
+    border: none;
+    color: #1dbeeb;
+    font-weight: 500;
+ 
+}
 
 /* footer  */
-/* Footer / Mini / 6 */
 
 footer{
-
 position: absolute;
 height: 280px;
 left: 0%;
