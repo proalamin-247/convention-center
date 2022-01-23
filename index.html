@@ -16,11 +16,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <header>
-          <!-- navbar  -->
-          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+        <header>
+          <!-- navbar  section start-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container container-fluid">
                   <a class="navbar-brand" href="#">Pro.Alamin Convention Center</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,13 +30,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">Link</a>
+                        <a class="nav-link active" href="#priceing">Priceing</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active">Disabled</a>
+                        <a class="nav-link active" href="#faq">FAQ</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active">Disabled</a>
+                        <a class="nav-link active" href="#contact-us">Contact US</a>
                       </li>
                     </ul>
                     <form class="d-flex">
@@ -46,10 +45,10 @@
                     </form>
                   </div>
                 </div>
-              </nav>  
-          </div>
+            </nav>
+          <!-- navbar  section end--> 
 
-          <!-- slider section  -->
+          <!-- slider section  start-->
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,39 +58,39 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/slider-img/banner.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="images/slider-img/banner.png" class="d-block w-100 bann" alt="...">
+                <div class="carousel-caption  d-md-block">
                   <h1 class="fs-1">The perfect venue for your
                     next event</h1>
                   <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit .</p>
-                  <a class="btn btn-light my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
+                  <a class="btn btn-light text-primary my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/slider-img/banner4.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1 class="fs-1">The perfect venue for your
                         next event</h1>
                       <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit .</p>
-                      <a class="btn btn-light my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
+                      <a class="btn btn-light text-primary my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/slider-img/banner3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1 class="fs-1">The perfect venue for your
                         next event</h1>
                       <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit .</p>
-                      <a class="btn btn-light my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
+                      <a class="btn btn-light text-primary my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/slider-img/banner2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1 class="fs-1">The perfect venue for your
                         next event</h1>
                       <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit .</p>
-                      <a class="btn btn-light my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
+                      <a class="btn btn-light text-primary my-3" href="https://web.programming-hero.com/" role="button" target="_blank">More Details</a>
                 </div>
               </div>
             </div>
@@ -104,18 +103,18 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div> 
-      </header>
+        </header>
+          <!-- slider section  END-->
 
         <main>
-            <!-- priceing section  -->
-            <section class="container my-5 priceing-section">
-                <h1 class="text-center">Our package</h1>
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                
+            <!-- priceing section start -->
+            <section class="container my-5 priceing-section" id="priceing">
+                <h1 class="text-center package-main">Our package</h1>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-xl-4 g-4">
                     <div class="col">
                       <div class="card h-100 border-0 shadow-sm bg-muted py-5">
                         <div class="card-body">
-                            <h1> $300</h1>
+                            <h1> $140</h1>
                             <br>
                             <h4 class="card-title">Business fair</h4>
                           <div class="text-muted">
@@ -124,7 +123,6 @@
                               <p><i class="far fa-check-circle text-info"></i></i> limited space access</p>
                               <p><i class="far fa-check-circle text-info"></i></i> Secuirty facility</p>
                               <p><i class="far fa-check-circle text-info"></i></i> event support</p>
-                              <p><i class="far fa-check-circle text-info"></i></i> Decoration design</p>
                               <p><i class="far fa-check-circle text-info"></i></i> Per day bill</p>
                           </div>
                         </div>
@@ -133,10 +131,11 @@
                         </div>
                       </div>
                     </div>
+
                     <div class="col">
                         <div class="card h-100 border-0 shadow-sm py-5">
                           <div class="card-body">
-                              <h1> $300</h1>
+                              <h1> $400</h1>
                               <br>
                               <h4 class="card-title">Business fair</h4>
                             <div class="text-muted">
@@ -153,42 +152,23 @@
                               <button class="btn package-button btn-lg">Choose Plan</button>
                           </div>
                         </div>
-                      </div>
-                      <div class="col">
-                        <div class="card h-100 border-0 shadow-sm py-5">
-                          <div class="card-body">
-                              <h1> $300</h1>
-                              <br>
-                              <h4 class="card-title">Business fair</h4>
-                            <div class="text-muted">
-                              <p class="card-text">For most businesses event 
-                                like book fair, craft fair.</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> limited space access</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> Secuirty facility</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> event support</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> Decoration design</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> Per day bill</p>
-                            </div>
-                          </div>
-                          <div class="d-flex justify-content-center mb-5">
-                              <button class="btn package-button btn-lg">Choose Plan</button>
-                          </div>
-                        </div>
-                      </div>
+                    </div>
 
-                      <div class="col">
-                        <div class="card h-100 border-0 shadow-sm py-5">
-                          <div class="card-body">
-                              <h1> $300</h1>
+                    <div class="col position-relative">
+                        <div class="card h-100 shadow-lg specials-package">
+                          <div class="card-body ">
+                              <h1> $770</h1>
                               <br>
                               <h4 class="card-title">Business fair</h4>
                             <div class="text-muted">
                               <p class="card-text">For most businesses event 
                                 like book fair, craft fair.</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> limited space access</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Full space access</p>
                                 <p><i class="far fa-check-circle text-info"></i></i> Secuirty facility</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Dedicated team</p>
                                 <p><i class="far fa-check-circle text-info"></i></i> event support</p>
-                                <p><i class="far fa-check-circle text-info"></i></i> Decoration design</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Buffet food</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Parking Free</p>
                                 <p><i class="far fa-check-circle text-info"></i></i> Per day bill</p>
                             </div>
                           </div>
@@ -196,17 +176,62 @@
                               <button class="btn package-button btn-lg">Choose Plan</button>
                           </div>
                         </div>
-                      </div>
+                        <div class="badge-hot-deal">
+                            <span class="badge rounded-pill bg-danger">
+                                HOT DEAL
+                                <span class="visually-hidden">unread messages</span>
+                              </span>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm py-5">
+                          <div class="card-body">
+                              <h1> $1250</h1>
+                              <br>
+                              <h4 class="card-title">Business fair</h4>
+                            <div class="text-muted">
+                              <p class="card-text">For most businesses event 
+                                like book fair, craft fair.</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Full space access</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Secuirty facility</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Dedicated team</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> event support</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Decoration design</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> premium Decoration</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Parking Free</p>
+                                <p><i class="far fa-check-circle text-info"></i></i> Per day bill</p>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-center mb-5">
+                              <button class="btn package-button btn-lg">Choose Plan</button>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+            <!-- priceing section  END-->
 
-            <!-- Frequently Asked Questions -->
-            <section class="container mt-5" id="faq">
-                <div class="text-center">
-                    <h1>Frequently Asked <span class="clints-text-style">Questions</span></h1>
+            <!-- toast section start -->
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">আমি হোলাম টোস্ট</strong>
+                  <small>৫ কোটি বছর আগে</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
+                <div class="toast-body">
+                  আমাকে কেটে দিলে আর ধরতে পারবে না ?
+                  আবার ধরতে চাইলে রিফ্রেশ দাও, হা হা হা 
+                </div>
+            </div>
+            <!-- toast section  END-->
+
+            <!-- Frequently Asked Questions Start-->
+            <section class="container my-5" id="faq">
+                <!-- <div class="text-center"> -->
+                    <h1 class="text-center">Frequently Asked <span class="clints-text-style">Questions</span></h1>
+                <!-- </div> -->
                 <div class="row  m-5">
-                    
                     <div class="col-md-6 col-12">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
@@ -277,6 +302,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Frequently Asked Questions END-->
 
             <!-- subscribe section start  -->
             <section class="container my-5" id="subscribe">
@@ -292,6 +318,8 @@
                 </div>
             </section>
             <!-- subscribe section end  -->
+
+            <!-- contact us section  start-->
             <div class="container my-5">
                     <h3 class="text-center">Send Us A Message</h3>
                 <form id="contactForm" class="p-3">
@@ -312,11 +340,10 @@
                     </div>
                 </form>
             </div>
-
-            
+            <!-- contact us section  END-->
         </main>
       
-      <!-- footer  -->
+      <!-- footer  section start-->
       <footer class="">
           <div class="d-flex justify-content-around align-items-center p-5">
               <p>© 2020 bike. All rights reserved</p>
@@ -327,6 +354,7 @@
               </div>
           </div>
       </footer>
+      <!-- footer  section start END-->
 
     <!-- bootstrap js link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

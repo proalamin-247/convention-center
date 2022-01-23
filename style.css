@@ -3,11 +3,14 @@
 
 
 .priceing-section{
-    /* margin-top: 150px !important; */
+    margin-top: 140px !important;
 }
 
 
 /* Package section  */
+.package-main{
+    margin-bottom: 120px;
+}
 .package-button{
     background: #fff2fa;
     /* height: 47px;
@@ -18,15 +21,52 @@
     font-weight: 500;
  
 }
+.badge-hot-deal{
+    top: -1.7em;
+    position: relative;
+    font-size: 130%;
+    vertical-align: baseline;
+    right: -8em;
+}
+
+
+
+.specials-package{
+    position: absolute;
+    bottom: 20px;
+    background-color: rgb(209, 247, 184);
+    border-radius: 20px;
+}
+
+
+
 
 /* footer  */
-
 footer{
-position: absolute;
-height: 280px;
-left: 0%;
-right: 0%;
-color: white;
+    position: absolute;
+    height: 280px;
+    left: 0%;
+    right: 0%;
+    color: white;
+    background: #0B0D17;
+}
+    
 
-background: #0B0D17;
+/* media query  */
+@media only screen and (max-width: 730px) {
+    .carousel-item img{
+        width: auto !important;
+    }
+    .alamin{
+    position: unset;
+    background-color: turquoise;
+    border-radius: 20px;
+    }
+    .badge-hot-deal{
+        top: -25.9em;
+        position: relative;
+        font-size: 130%;
+        vertical-align: baseline;
+        right: 0em;
+    }
 }
