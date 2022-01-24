@@ -1,11 +1,9 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&family=Neonderthaw&family=Poppins&family=Roboto&family=Yeseva+One&display=swap');
 
-
 .priceing-section{
     margin-top: 140px !important;
 }
-
 
 /* Package section  */
 .package-main{
@@ -36,9 +34,6 @@
     border-radius: 20px;
 }
 
-
-
-
 /* footer  */
 footer{
     position: absolute;
@@ -49,7 +44,6 @@ footer{
     background: #0B0D17;
 }
     
-
 /* media query  */
 @media only screen and (max-width: 730px) {
     .carousel-item img{
