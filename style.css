@@ -29,8 +29,6 @@
     right: -8em;
 }
 
-
-
 .specials-package{
     position: absolute;
     bottom: 20px;
@@ -57,13 +55,13 @@ footer{
     .carousel-item img{
         width: auto !important;
     }
-    .alamin{
+    .specials-package{
     position: unset;
     background-color: turquoise;
     border-radius: 20px;
     }
     .badge-hot-deal{
-        top: -25.9em;
+        top: -29.9em;
         position: relative;
         font-size: 130%;
         vertical-align: baseline;
